@@ -1,0 +1,19 @@
+<!--pages/demo01/demo01.wxml-->
+<text>我系测试demo01</text>
+<view>
+   创史:{{name}}
+</view>
+<!--wx:for-item="item" wx:for-index="index" 一重循环可以省略-->
+<view wx:for="{{list}}" wx:key="name">
+    名称:{{item.name}}     血统:{{item.blood}}
+</view>
+
+<view wx:for="{{people}}" wx:for-index="key" wx:for-item="value" wx:key="name">
+    {{key}}:{{value}}
+</view>
+
+<view>绑定事件</view>
+<text>{{nums}}</text>
+<input type="text" bindinput="bindInput"></input>
+<button bindtap="handleOperation" data-operation="{{1}}">+</button>
+<button bindtap="handleOperation" data-operation="{{-1}}">-</button>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#FFEBCD",
+  "navigationBarTitleText": "卡塞尔学院",
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle":"dark"
+}

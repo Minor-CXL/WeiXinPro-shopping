@@ -1,0 +1,12 @@
+/* pages/demo02/demo02.wxss */
+
+view{
+    width:  200rpx;
+    height: 200rpx;
+    background-color: cadetblue;
+}
+
+swiper{
+    width: 100%;
+    height: calc(750rpg * 472/846 );
+}

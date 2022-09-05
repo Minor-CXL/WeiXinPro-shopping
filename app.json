@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/demo03/demo03",
+    "pages/demo02/demo02",
+    "pages/demo01/demo01",
+    "pages/index/index",
+    "pages/img/img",
+    "pages/search/search",
+    "pages/mine/mine",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#9ac7f4",
+    "navigationBarTitleText": "龙的国度",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/home.png",
+      "selectedIconPath": "icon/home-fill.png"
+    },
+    {
+      "pagePath": "pages/img/img",
+      "text": "图片",
+      "iconPath": "icon/pic.png",
+      "selectedIconPath": "icon/pic_fill.png"
+    },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "icon/search.png",
+        "selectedIconPath": "icon/search-fill.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/mine.png",
+        "selectedIconPath": "icon/mine-fill.png"
+      }
+  ],
+    "color": "#000000",
+    "selectedColor":"#F5FFFA",
+    "backgroundColor": "#CFCFCF",
+    "borderStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

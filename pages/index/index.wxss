@@ -1,19 +1,49 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
+view{
+    color:var(--themeColor);
+}
+/*轮播图*/
+.ZL_swiper swiper{
+    width: 750rpx;
+    height: 340rpx;
 }
 
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.ZL_swiper swiper image{
+    width: 100%;
 }
+/*导航条*/
+.ZL_cate{
+    display: flex;
+}
+.ZL_cate navigator{
+    padding: 20rpx;
+    flex: 1;
+}
+.ZL_cate navigator image{
+    width: 100%;
+}
+/*楼层图*/
+.ZL_floor .floor_group .floor_title{
+    padding: 10rpx 0;
+}
+.ZL_floor .floor_group .floor_title image{
 
-.usermotto {
-  margin-top: 200px;
+     width: 100%;
+ }
+
+.ZL_floor .floor_group .floor_list{
+    overflow: hidden;
+}
+.ZL_floor .floor_group .floor_list navigator{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+}
+.ZL_floor .floor_group .floor_list navigator image:nth-last-child(-n+4){
+    height: calc(32vw*386/232/2);
+    border-left: 10rpx solid #fff;
+    border-bottom: 10rpx solid #fff;
+}
+.ZL_floor .floor_group .floor_list navigator image{
+    width: 100%;
+    height: 100%;
 }

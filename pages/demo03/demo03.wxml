@@ -1,9 +1,0 @@
-<!--pages/demo03/demo03.wxml-->
-
-<button open-type="contact">contact</button>
-<button open-type="share">share</button>
-<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNum">getPhoneNumber</button>
-<button open-type="getUserInfo" bindgetuserinfo="getInfo">getUserInfo</button>
-<button open-type="launchApp">launchApp</button>
-<button open-type="openSetting">openSetting</button>
-<button open-type="feedback">feedback</button>

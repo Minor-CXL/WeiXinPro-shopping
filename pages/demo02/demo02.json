@@ -1,7 +1,0 @@
-{
-  "usingComponents": {},
-  "navigationBarBackgroundColor": "#FFEBCD",
-  "navigationBarTitleText": "霍格沃兹",
-  "enablePullDownRefresh":true,
-  "backgroundTextStyle":"dark"
-}

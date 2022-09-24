@@ -2,5 +2,5 @@
   "usingComponents": {
     "SearchInput": "../../componets/SearchInput/SearchInput"
   },
-  "navigationBarTitleText": "朱亮购物"
+  "navigationBarTitleText": "小程序购物"
 }

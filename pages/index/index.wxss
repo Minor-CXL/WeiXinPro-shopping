@@ -1,5 +1,9 @@
 view{
     color:var(--themeColor);
+
+}
+.floor_title{
+
 }
 /*轮播图*/
 .ZL_swiper swiper{
@@ -39,7 +43,7 @@ view{
     width: 33.3%;
 }
 .ZL_floor .floor_group .floor_list navigator image:nth-last-child(-n+4){
-    height: calc(32vw*386/232/2);
+    height: calc(32.2vw*386/232/2);
     border-left: 10rpx solid #fff;
     border-bottom: 10rpx solid #fff;
 }

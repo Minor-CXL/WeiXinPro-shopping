@@ -15,15 +15,13 @@
     "pages/pay/index"
     ],
   "window":{
-    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#e31c23",
     "navigationBarTitleText": "龙的国度",
-    "navigationBarTextStyle":"white",
-    "enablePullDownRefresh":true
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
     "color": "#000000",
-    "selectedColor": "#FFA500",
+    "selectedColor": "#e82c48",
     "backgroundColor": "#FFFAFA",
     "list": [
       {

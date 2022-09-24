@@ -9,4 +9,59 @@ page{
     --themeColor:#e31c23;
     font-size: 28rpx;
 }
+image{
+    width: 100%;
+}
+
+@font-face {
+    font-family: "iconfont"; /* Project id 3632357 */
+    src: url('//at.alicdn.com/t/c/font_3632357_zpkrx6fzc5.woff2?t=1663860955891') format('woff2'),
+    url('//at.alicdn.com/t/c/font_3632357_zpkrx6fzc5.woff?t=1663860955891') format('woff'),
+    url('//at.alicdn.com/t/c/font_3632357_zpkrx6fzc5.ttf?t=1663860955891') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shoucang1:before {
+    content: "\e8c6";
+}
+
+.icon-tuikuan:before {
+    content: "\e600";
+}
+
+.icon-31daifukuan:before {
+    content: "\e601";
+}
+
+.icon-dingdan:before {
+    content: "\e897";
+}
+
+.icon-daishouhuo:before {
+    content: "\e640";
+}
+
+.icon-gouwuche:before {
+    content: "\e73d";
+}
+
+.icon-fenxiang:before {
+    content: "\e86e";
+}
+
+.icon-kefu:before {
+    content: "\e625";
+}
+
+.icon-shoucang:before {
+    content: "\eca7";
+}
+
 
